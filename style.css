@@ -1,0 +1,371 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: #ffff;
+  font-family: "Azeret Mono";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav section style */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px ;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+  color: rgb(13, 19, 33);
+ font-size: 28px;
+ font-weight: 800;
+ line-height: 33px;
+}
+
+.nav-btn{
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  padding: 17px 24px 17px 24px;
+  color: rgb(13, 19, 33);
+ font-size: 20px;
+ font-weight: 600;
+ line-height: 23px;
+}
+
+.hero{
+  background-image: url(/assets/Hero-bg.png);
+  background-size: cover;
+  text-align: center;
+  background-size: contain;
+  background-position: center;
+}
+
+.hero-wrapper{
+  max-width: 998px;
+  margin-left: 221px;
+  margin-right: 221px;
+
+}
+
+.hero-title{
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  color: #0D1321;
+  margin-bottom: 24px;
+}
+
+.hero-description{
+  font-size: 16px;
+  line-height: 26px;
+  color: rgb(13, 19, 33);
+  text-align: center;
+  font-family: Azeret Mono;
+  font-weight: 400;
+  margin-bottom: 32px;
+
+}
+
+.hero-img {
+  padding-top: 26px;
+}
+
+.hero-btn{
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 21px 24px 21px 24px;
+  margin-bottom: 45px;
+}
+
+.hero-btn > a{
+  text-decoration: none;
+  color: #ffff;
+}
+
+.benefits{
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  max-width: 1140px;
+  margin-left: 148px;
+  margin-right: 152px;
+  margin-top: 74px;
+  margin-bottom: 80px;
+ 
+}
+.benefits-header{
+  text-align: center;
+  margin: 80px 97px 80px 97px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.benefits-title{
+  color: rgb(13, 19, 33);
+  padding-bottom: 24px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+
+.benefits-description{
+  color: rgb(13, 19, 33);;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+  padding: 0 47px 0 47px;
+}
+
+
+.skill-1{
+  background-color: #FFFFFFFF;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  padding: 48px;
+  margin-bottom: 32px;
+}
+
+.skill-2{
+  background-color: #FFFFFFFF;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  padding: 48px;
+  margin-bottom: 32px;
+}
+
+.skill-1-wrap > h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-bottom: 16px;
+}
+
+.skill-1-wrap > p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.skill-2 > img{
+  margin-right: 48px;
+}
+
+.skill-1 > img{
+  margin-left: 158px;
+}
+
+.skill-btn{
+  margin-top: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.inspiration-header{
+  text-align: center;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+.inspiration-header > h3{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+
+.inspiration-header > p{
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+
+iframe{
+  border-radius: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.video-wrapper{
+  max-width: 1140px;
+  max-height: 614px;
+  align-items: center;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin-bottom: 183px;
+}
+.target{
+  max-width: 1140px;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+.target-heading{
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.target-heading > h3{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+
+.target-heading > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.target-wrap{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px 40px 40px 40px;
+}
+
+.target-wrap > h4{
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 8px 0px;
+}
+
+.target-wrap > p{
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.target-wrap > a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+
+.target-wrapper{
+  display: flex;
+  gap: 24px;
+}
+
+.support-section {
+  justify-content: center;
+  max-width: 1140px;
+  max-height: 313px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(/assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  padding: 64px 48px 64px 48px;
+  margin-bottom: 80px;
+}
+
+
+.support-section > h3 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.support-section > p {
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-left: 157px;
+  padding-right: 157px;
+}
+
+.input-box{
+  text-align: center;
+}
+
+input{
+  width: 548px;
+  height: 57px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: rgb(255, 255, 255);
+  line-height: 19px;
+  padding-left: 20px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  border: none;
+}
+
+.support-btn{
+    width: 120px;
+    height: 57px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.footer-section{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-imgs{
+  gap: 24px;
+}
+
+
+
+
+
+
+
