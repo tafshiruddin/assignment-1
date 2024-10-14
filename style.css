@@ -38,6 +38,10 @@ body{
  cursor: pointer;
 }
 
+.nav-header{
+  cursor: pointer;
+}
+
 .hero{
   background-image: url(/assets/Hero-bg.png);
   background-size: cover;
@@ -85,6 +89,7 @@ body{
   line-height: 23px;
   padding: 21px 24px 21px 24px;
   margin-bottom: 45px;
+  cursor: pointer;
 }
 
 .hero-btn > a{
